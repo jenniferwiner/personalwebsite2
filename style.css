@@ -1,0 +1,156 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro {
+  background-image: url("img/picture7.jpg");
+  background-size: cover;
+  min-height: 700px;
+
+  text-align: center;
+  padding-top: 200px;
+}
+
+#intro h1 {
+  font-size: 64px;
+  color: white;
+}
+
+#intro p {
+  color: white;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: grey;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #7ec0ee;
+  color: white;
+}
+
+#about h2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 48px;
+}
+#about .btn {
+  color: white;
+  text-align: center;
+  width: 280px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+#about .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+#about right-col {
+  text-align: right;
+}
+
+#about h3 {
+  font-size: 48px;
+  color: #7ec0ee;
+}
+
+#about left-col {
+  text-align: left;
+}
+
+#about p {
+  margin-top: 20px;
+  margin-bottom: 34px;
+  font-size: 16px;
+}
+
+#photos {
+  padding-bottom: 50px;
+
+}
+
+.col-md-4 img {
+    height: 240px;
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+  height: 100px;
+  background-color: gray;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+#footer p {
+  font-size: 18px;
+}
+
+#footer .btn {
+  background-color: white;
+  color: gray;
+}
+
+#footer .btn:hover{
+  background-color: #7ec0ee;
+  color: white;
+}
+
+#header {
+    background-image: url("img/picture7.jpg");
+    background-size: cover;
+    min-height: 400px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#header h1 {
+    font-size: 64px;
+    color: white;
+}
+
+.goals {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 190px;
+  padding-left: 190px;
+
+}
+.goals p {
+  font-size: 18px;
+  text-align: left;
+
+}
+
+#gif {
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+#gif .right-col {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gif h3 {
+  font-size: 48px;
+  color: #7ec0ee;
+  margin: 0;
+}
